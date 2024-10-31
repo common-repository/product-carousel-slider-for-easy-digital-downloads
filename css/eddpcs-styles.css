@@ -1,0 +1,170 @@
+/* Google font */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+/* Global */
+
+.eddpcs_product_carousel_slider .owl-item .item img {
+    border-radius: 0;
+    box-shadow: none;
+    width: 100%;
+    display: block;
+}
+
+.eddpcs_product_carousel_slider .item {
+        padding: 0 8px 0 8px;
+        line-height: 1.714285714;
+}
+
+.eddpcs_product_carousel_slider .caption {
+    text-align: center;
+    padding: 0 5px; 
+}
+
+.eddpcs_product_carousel_slider {
+    position: relative;
+    margin: 10px 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Category */
+
+.eddpcs_product_carousel_slider .owl-item .item .product_category {
+    margin: 10px 0 6px;
+}
+
+.eddpcs_product_carousel_slider .owl-item .item .product_category a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+/* Title */
+
+.eddpcs_product_carousel_slider .owl-item .item h4.product_name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 9px 0 11px;
+    line-height: normal;
+}
+
+.eddpcs_product_carousel_slider .owl-item .item h4.product_name a {
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    color: #444444;
+    webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+/* Cart */
+
+.eddpcs_product_carousel_slider .owl-item .item .cart {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.eddpcs_product_carousel_slider .owl-item .item .cart .AddToCartButton span, .eddpcs_product_carousel_slider .owl-item .item .cart a.edd_go_to_checkout.button.blue.AddToCartButton {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 4px 11px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    text-decoration: none;
+    -webkit-transition: all 0.4s linear !important;
+    -moz-transition: all 0.4s linear !important;
+    -ms-transition: all 0.4s linear !important;
+    -o-transition: all 0.4s linear !important;
+    transition: all 0.4s linear !important;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+.eddpcs_product_carousel_slider .owl-item .item .cart .AddToCartButton span:hover, .eddpcs_product_carousel_slider .owl-item .item .cart a.edd_go_to_checkout.button.blue.AddToCartButton:hover {
+    text-decoration: none;
+}
+
+.eddpcs_product_carousel_slider .owl-item .item .cart span.edd-cart-added-alert {
+    display: none!important;
+}
+
+/* Header Area */
+
+.eddpcs_product_carousel_slider .title {
+    border-bottom: 1px solid #F6F6F6!important;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    padding-bottom: 2px;
+}
+
+/* Navigation Arrows */
+
+.eddpcs_product_carousel_slider .eddpcs_carousel_header i {
+    position: absolute;
+    top: 32%;
+    width:35px;
+    height:35px;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    z-index: 999;
+    border: 0;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    cursor: pointer;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.eddpcs_product_carousel_slider i.fa-angle-left {
+    left: -5px;
+}
+
+.eddpcs_product_carousel_slider i.fa-angle-right {
+    right: -5px;
+}
+
+/* Product Image Hover Effect */
+
+.eddpcs_product_carousel_slider .product_image_container .product_thumb_link {
+    display: block;
+    overflow: hidden;
+}
+
+.eddpcs_product_carousel_slider .product_image_container .product_thumb_link img {
+    -webkit-transition: all 0.30s linear;
+    -moz-transition: all 0.30s linear;
+    -o-transition: all 0.30s linear;
+    -ms-transition: all 0.30s linear;
+    transition: all 0.30s linear;
+}
+
+.eddpcs_product_carousel_slider .product_image_container .product_thumb_link:hover img {
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
